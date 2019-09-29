@@ -16,6 +16,8 @@ Start
 
 ``node src/image.js``
 
+``node src/pdf.js``
+
 ``node src/file.js``
 
 Run
