@@ -10,6 +10,14 @@ Start
 
 ``node index.js``
 
+``node src/input.js``
+
+``node src/capture.js``
+
+``node src/image.js``
+
+``node src/file.js``
+
 Run
 -----
 
