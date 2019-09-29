@@ -8,7 +8,7 @@ Install
 Start
 -----
 
-``npm start``
+``node src/index.js``
 
 Run
 -----

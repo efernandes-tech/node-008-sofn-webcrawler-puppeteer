@@ -1,0 +1,22 @@
+{
+  "name": "008-sofn-webcrawler-puppeteer",
+  "version": "1.0.0",
+  "description": "Install\r -----",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edersonlrf/node-008-sofn-webcrawler-puppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edersonlrf/node-008-sofn-webcrawler-puppeteer/issues"
+  },
+  "homepage": "https://github.com/edersonlrf/node-008-sofn-webcrawler-puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  }
+}
