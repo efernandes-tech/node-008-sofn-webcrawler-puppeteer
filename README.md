@@ -10,6 +10,10 @@ Start
 
 ``node src/index.js``
 
+``node src/input.js``
+
+``node src/capture.js``
+
 Run
 -----
 

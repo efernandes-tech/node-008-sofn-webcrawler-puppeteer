@@ -5,7 +5,9 @@ const puppeteer = require('puppeteer')
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
 
-    await page.goto('https://www.reddit.com/r/hackernews/')
+    await page.goto('https://www.reddit.com/r/hackernews/', {
+        waitUntil: 'domcontentloaded'
+    })
 
     await browser.close()
 
