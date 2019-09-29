@@ -1,11 +1,16 @@
-# cotalista-robot
+# node-008-sofn-webcrawler-puppeteer
 
 Install
 -----
 
 ``npm install``
 
+Start
+-----
+
+``npm start``
+
 Run
 -----
 
-``npm start``# node-008-sofn-webcrawler-puppeteer
+http://localhost
