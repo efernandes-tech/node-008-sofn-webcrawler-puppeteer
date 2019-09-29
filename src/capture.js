@@ -1,4 +1,6 @@
 const puppeteer = require('puppeteer')
+const fs = require('fs')
+const path = require('path')
 
 ;(async () => {
 
@@ -21,14 +23,15 @@ const puppeteer = require('puppeteer')
     const titles = await page.evaluate((listOfTitleSelector) => {
         const anchors = Array.from(document.querySelectorAll(listOfTitleSelector))
 
-        console.log(anchors)
-
         return anchors.map(anchor => {
             return anchor.textContent
         })
     }, listOfTitleSelector)
 
-    console.log(titles)
+    let stream = fs.createWriteStream(path.join(__dirname, './files/news.txt'))
+
+    titles.forEach(title => stream.write(title + '\n'))
+    stream.end()
 
     await browser.close()
 
