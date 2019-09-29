@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/edersonlrf/node-008-sofn-webcrawler-puppeteer#readme",
   "dependencies": {
+    "mongoose": "^5.7.1",
     "puppeteer": "^1.20.0"
   }
 }

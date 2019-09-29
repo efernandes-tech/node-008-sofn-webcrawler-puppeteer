@@ -8,11 +8,7 @@ Install
 Start
 -----
 
-``node src/index.js``
-
-``node src/input.js``
-
-``node src/capture.js``
+``node index.js``
 
 Run
 -----
